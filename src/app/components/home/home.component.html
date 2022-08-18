@@ -1,0 +1,9 @@
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [routerLink]="['/login']" routerLinkActive="router-link-active">Login</button>
+  <button mat-menu-item [routerLink]="['/cadastro']" routerLinkActive="router-link-active">Cadastro</button>
+  <button mat-menu-item [routerLink]="['/perfil']" routerLinkActive="router-link-active">Perfil</button>
+  <button mat-menu-item [routerLink]="['/filmes']" routerLinkActive="router-link-active">Biblioteca</button>
+  <button mat-menu-item [routerLink]="['/form']" routerLinkActive="router-link-active">Formulário</button>
+
+</mat-menu>
