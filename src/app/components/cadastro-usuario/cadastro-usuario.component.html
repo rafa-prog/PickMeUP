@@ -1,0 +1,26 @@
+<div id="form">
+    <!--[formGroup]="form" (ngSubmit)="onSubmit()" #form="ngForm"-->
+    <form>
+        <mat-form-field class="form-field" appearance="fill">
+            <mat-label>Nome Completo</mat-label>
+            <input matInput type="text" required>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="form-field" appearance="fill">
+            <mat-label>CPF</mat-label>
+            <input matInput type="number">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="form-field" appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="text">
+        </mat-form-field>
+        <br>
+        <mat-form-field class="form-field" appearance="fill">
+            <mat-label>Senha</mat-label>
+            <input matInput type="text">
+        </mat-form-field>
+        <br>
+        <button mat-flat-button color="primary">Criar Conta</button>
+    </form>
+</div>

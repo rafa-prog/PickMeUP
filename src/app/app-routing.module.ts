@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BibliotecaComponent } from './components/biblioteca/biblioteca.component';
-import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { CadastroFilmeComponent } from './components/cadastro-filme/cadastro-filme.component';
+import { CadastroUsuarioComponent } from './components/cadastro-usuario/cadastro-usuario.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
@@ -13,8 +14,12 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'cadastro',
-    component: CadastroComponent,
+    path: 'cadastro-usuario',
+    component: CadastroUsuarioComponent,
+  },
+  {
+    path: 'cadastro-filme',
+    component: CadastroFilmeComponent,
   },
   {
     path: 'login',
